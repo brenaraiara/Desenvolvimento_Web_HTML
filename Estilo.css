@@ -2,9 +2,7 @@ body {
     background-color: lightgrey;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flexbox; 
-    align-items: center;
     justify-content: center;
-    height: 100vh;
     margin: 10;
 }
 
@@ -24,5 +22,10 @@ h2 {
 .imagem {
     width: 500px;
     height: 500px;
+}
+
+.lista {
+    column-count: 4;
+    column-gap: 20px;
 }
 
